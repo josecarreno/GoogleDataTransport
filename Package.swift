@@ -29,18 +29,18 @@ let package = Package(
   dependencies: [
     .package(
       name: "nanopb",
-      url: "https://github.com/firebase/nanopb.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/firebase/nanopb.git",
       "2.30908.0" ..< "2.30909.0"
     ),
     .package(
       name: "Promises",
-      url: "https://github.com/google/promises.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/google/promises.git",
       "1.2.8" ..< "3.0.0"
     ),
     .package(
       name: "GoogleUtilities",
-      url: "https://github.com/google/GoogleUtilities.git",
-      "7.2.1" ..< "8.0.0"
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/GoogleUtilities.git",
+      .branch("sbp")
     ),
   ],
   // TODO: Restructure directory structure to simplify the excludes here.
